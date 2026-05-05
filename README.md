@@ -26,10 +26,10 @@ git remote add origin https://github.com/2338166720-droid/git-learning-2026.git
 4.git push -u origin main（首次推送）/ git push（后续推送）同步到远程仓库；
 5.期间使用 git status 查看状态、git log 查看提交记录。
 三、提交记录说明
-1.a1b2c3d	init: 初始化仓库并添加 README。创建本地仓库，关联远程仓库，编写 README.md 初稿（仅包含学习资料部分）
-2.d4e5f6g	feat: 补充实践流程和提交说明。完善 “实践流程” 章节，添加 “提交记录说明” 表格，补充 Git 基础命令示例
-3.g7h8i9j	fix: 修正远程仓库关联命令错误。修正git remote add命令中仓库地址的笔误，补充git remote -v验证命令
-4.j0k1l2m	docs: 补充问题解决和学习心得。新增 “遇到的问题及解决方法”“Git 学习心得” 章节，完善 README 格式规范
+1.0725a29	May 5，2026，3:53 PM GMT+8 Add print statement to test.py(1)新建 test.py 文件；(2)写入基础测试代码:print("Hello Git")；(3)完成项目首次代码提交，初始化仓库内容。
+2.43baef6	May 5，2026，4:01 PM GMT+8 Add MatCalculate class for matrix operations	(1)引入 numpy 库作为数值计算依赖；(2)完整实现 MatCalculate 矩阵运算类，包含以下核心功能：初始化矩阵并解析行列 / 向量信息；数乘、矩阵乘法、基变换、逆矩阵求解；特征值 / 特征向量计算、施密特正交化；矩阵求秩、转置等辅助方法；(3)新增打印语句：print("在提交过之后，对本程序进行第二次提交！")；(4)代码行数新增 137 行，完成核心功能开发。
+3.6c23e77	May 5，2026，4:01 PM GMT+8 Add print statements for submission updates	(1)在 test.py 中新增打印语句：print("第三次提交：完成Git实践任务")；(2) 补充提交标识信息，完善代码提交闭环；(3)代码行数新增 2 行，完成代码层的最终提交。
+4.f00eada	May 5，2026，4:13 PM GMT+8 Create README.md	(1)新建 README.md 文件，文件行数新增 67 行；(2)完整梳理本次 Git 实践的全流程：学习资料来源及相关链接；Git 环境安装、仓库初始化与远程关联流程；核心操作命令与提交规范；(3)完成实践总结，形成可回溯、可复用的 Git 学习笔记。
 四、遇到的问题及解决方法
 问题 1：推送代码时提示 “Permission denied (publickey)”
 现象：执行git push origin main时，报错拒绝访问，无法将本地代码推送到 GitHub 远程仓库。
